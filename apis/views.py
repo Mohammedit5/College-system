@@ -19,7 +19,7 @@ import apis.serializers as api_ser
 
 
 class DetailView(APIView): 
-    """
+    """ 
     Returns user's info.
     """
     permission_classes = [IsAuthenticated, ]
