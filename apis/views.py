@@ -18,7 +18,7 @@ from django.conf import settings
 import apis.serializers as api_ser
 
 
-class DetailView(APIView):
+class DetailView(APIView): 
     """
     Returns user's info.
     """
